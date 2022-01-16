@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FetchData_App from './Components/fetchData_Reducer_Context/FetchData_App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FetchData_App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,18 +1,17 @@
 import './App.css';
-import { useState } from 'react';
-import A from './Components/Context_API/A';
+import React, { useState, useReducer } from 'react';
+import A from './Components/ContexAndUseReducer/A';
 import { consumer, Provider, provider, userContext } from './Components/Context_API/UserContext';
 import D from './Components/Context_API/D';
-import B from './Components/Context_API/B';
+import B from './Components/ContexAndUseReducer/B';
 import Counter from './Components/useReducer/Counter';
 import Counter_Object from './Components/useReducer/Counter_Object';
+import C from './Components/ContexAndUseReducer/C';
+import FetchData from './Components/fetchData_Reducer_Context/FetchData';
 
 function App() {
   return (
-    <div>
-      {/* <Counter /> */}
-      <Counter_Object />
-    </div>
+    <FetchData />
   )
 }
 
@@ -37,4 +36,15 @@ return (
 );
 
 */
+
+/*
+Use reducer
+return (
+    <div>
+      <Counter_Object />
+    </div>
+  )
+*/
+
+
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import FetchData from './FetchData'
 import FetchData_reducer from './FetchData_reducer'
+import Fetch_LocalStrorage_reducer from './Fetch_LocalStrorage_reducer'
 
 function FetchData_App() {
     return (
         <div>
-            <FetchData_reducer />
+            <Fetch_LocalStrorage_reducer />
         </div>
     )
 }

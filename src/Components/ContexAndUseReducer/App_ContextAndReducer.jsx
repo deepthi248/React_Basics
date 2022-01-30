@@ -23,7 +23,10 @@ const reducer = (currState, action) => {
 function App_ContextAndReducer() {
     const [newState, dispatch] = useReducer(reducer, intialState)
     return (
-        < CounterContext.Provider value={{ counter: newState, counterDispatch: dispatch }}>
+        < CounterContext.Provider value={{
+            counter: newState,
+            counterDispatch: dispatch
+        }}>
             <p>{newState}</p>
             <A />
             <B />

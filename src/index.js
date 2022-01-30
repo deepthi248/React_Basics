@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FetchData_App from './Components/fetchData_Reducer_Context/FetchData_App';
-
+import App_Practice from './Components/PRACTICE/App_Practice';
+import App_contactDCA from './Components/ContactDetaisUsingContextAPI/App_contactDCA';
 ReactDOM.render(
   <React.StrictMode>
-    <FetchData_App />
+    <App_contactDCA />
   </React.StrictMode>,
   document.getElementById('root')
 );
